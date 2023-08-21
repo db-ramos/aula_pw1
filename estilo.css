@@ -1,0 +1,80 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    height: 100vh; 
+    background-image: url("chocolate-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.titulo{
+    letter-spacing: 4pt;
+    word-spacing: 4pt;
+    text-transform: capitalize;
+    text-decoration: overline;
+    text-shadow: 1px 2px 2px rgba(228, 92, 92, 0.925);
+    padding: 4px;
+}
+
+.bv{
+    text-align: center;
+}
+
+.conteudo{
+    background-color: lightsalmon;
+    width: 800px; /* largura */
+    margin: 32px auto;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid  white;
+}
+
+.link_img{
+    height: 60px; /* altura */ 
+}
+
+h1{
+    background-color: chocolate; /* cor de fundo */
+    color: #FFFFFF; /* cor do texto */
+    font-family: Arial; /* tipo da fonte */
+    font-size: 2rem;  /* tamanho */
+    font-weight: bolder; /* negrito */
+    font-style: italic;  /* itálico */
+    text-align: center ;
+}
+
+h2{
+    border-style: solid; /* estilo da borda*/
+    border-left-width: 4px; /* largura borda esquerda */
+    border-top-width: 4px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-color: chocolate; /* cor da borda */
+    padding-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+ul, ol{
+    margin-left: 32px;
+} 
+
+.foto{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+
+
